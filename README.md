@@ -8,6 +8,8 @@ Different cities across the US have different median home prices and thus differ
 
 ## Create a RabbitMQ messaging system with three queues
 * One for secret messages - ALL secret messages go to this queue
+> Whether a message is secret will be randomly decided on message creation.
+
 * One for cities (cities1)
 * Another for cities (cities2)
 
